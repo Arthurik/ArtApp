@@ -3,6 +3,11 @@
     <output-path>$PROJECT_DIR$/target</output-path>
     <root id="archive" name="ArtApp.war">
       <element id="artifact" artifact-name="ArtApp:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="JPA 2.0-JPA 2.0" />
+        </element>
+      </element>
     </root>
   </artifact>
 </component>
