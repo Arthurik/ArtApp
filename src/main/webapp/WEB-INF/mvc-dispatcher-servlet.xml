@@ -11,28 +11,27 @@
         <property name="prefix" value="/WEB-INF/pages/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
-    <!--
-        <bean id="freemarkerConfig" class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer" >
-           <property name="templateLoaderPath"  value="/WEB-INF/pages/ftl"/>
-            <property name="freemarkerSettings">
-                <props>
-                    <prop key="template_update_delay">10</prop>
-                </props>
-            </property>
-        </bean>
+  <!--  <bean id="freemarkerConfig" class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer" >
+        <property name="templateLoaderPath"  value="/WEB-INF/pages/ftl"/>
+        <property name="freemarkerSettings">
+            <props>
+                <prop key="template_update_delay">10</prop>
+            </props>
+        </property>
+    </bean>
 
-            <bean id="viewResolver" class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver">
-             <!-   <property name="cache" value="true"/>
-                <property name="prefix" value=""/>
-                <property name="suffix" value=".ftl"/>
-                <property name="exposeSpringMacroHelpers" value="true" />
-                <property name="exposeRequestAttributes">
-                    <value>true</value>
-                </property>
-                <property name="exposeSessionAttributes">
-                    <value>true</value>
-                </property>
-            </bean>
+    <bean id="viewResolver" class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver">
+     <!-   <property name="cache" value="true"/>
+        <property name="prefix" value=""/>
+        <property name="suffix" value=".ftl"/>
+        <property name="exposeSpringMacroHelpers" value="true" />
+        <property name="exposeRequestAttributes">
+            <value>true</value>
+        </property>
+        <property name="exposeSessionAttributes">
+            <value>true</value>
+        </property>
+    </bean>
 
-                -->
+-->
 </beans>
