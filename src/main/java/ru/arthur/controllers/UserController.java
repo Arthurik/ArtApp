@@ -15,6 +15,10 @@ public class UserController {
         public String listUsers(ModelMap model) {
             model.addAttribute("user", new User());
                         return "users";
+
+
+
+
         }
 
    /*     @RequestMapping(value = "/add", method = RequestMethod.POST)
