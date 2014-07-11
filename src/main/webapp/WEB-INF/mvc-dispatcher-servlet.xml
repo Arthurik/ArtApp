@@ -11,6 +11,16 @@
         <property name="prefix" value="/WEB-INF/pages/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
+    <bean id="freemarker" class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver">
+            <property name="prefix" value="/WEB_INF/pages/"/>
+            <property name="suffix" value=".ftl"/>
+
+     </bean>
+
+
+
+
+
   <!--  <bean id="freemarkerConfig" class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer" >
         <property name="templateLoaderPath"  value="/WEB-INF/pages/ftl"/>
         <property name="freemarkerSettings">
